@@ -1,7 +1,22 @@
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react"
+import Navbar from "./components/Navbar"
 
 export default function App(){
 
+  useEffect(() => {
+    Aos.init({
+      offset: 100,
+      duration: 700,
+      easing: "ease-in",
+      delay: 100,
+    })
+  })
+
   return(
-    <div className="bg-red-400 text-white">App</div>
+    <div className="overflow-x-hidden">
+      <Navbar />
+    </div>
   )
 }
