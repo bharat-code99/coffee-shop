@@ -10,3 +10,16 @@
   --color-secondary: #4a1e1b;
   --color-brandDark: #270c03;
 }
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.spin{
+  animation: spin 40s linear infinite;
+}

@@ -3,6 +3,7 @@ import "aos/dist/aos.css"
 import { useEffect } from "react"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import Services from "./components/Services"
 
 export default function App(){
 
@@ -16,9 +17,10 @@ export default function App(){
   })
 
   return(
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden overflow-hidden">
       <Navbar />
       <Hero />
+      <Services />
     </div>
   )
 }
