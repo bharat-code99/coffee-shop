@@ -6,21 +6,21 @@ const servicesData = [
     id: 1,
     img: Img2,
     name: "Espresso",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quasi possimus reprehenderit enim cum incidunt aut voluptatibus odio? Error, eligendi.",
+    description: "Espresso is a strong, rich coffee brewed by forcing hot water through finely-ground beans, creating a concentrated and flavorful shot.",
     aosDelay: "100"
   },
   {
     id: 2,
     img: Img2,
     name: "Cappuccino",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quasi possimus reprehenderit enim cum incidunt aut voluptatibus odio? Error, eligendi.",
+    description: "Cappuccino is a popular Italian coffee drink made with espresso, steamed milk, and frothy milk foam, offering a balanced, creamy taste.",
     aosDelay: "300"
   },
   {
     id: 3,
     img: Img2,
     name: "Americano",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quasi possimus reprehenderit enim cum incidunt aut voluptatibus odio? Error, eligendi.",
+    description: "Americano is a diluted espresso-based coffee, made by adding hot water to espresso, resulting in a smoother, milder flavor.",
     aosDelay: "500"
   },
 ]
