@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Services from "./components/Services"
 import Banner from "./components/Banner"
+import Appstore from "./components/Appstore"
+import Testimonials from "./components/Testimonials"
 
 export default function App(){
 
@@ -23,6 +25,8 @@ export default function App(){
       <Hero />
       <Services />
       <Banner />
+      <Appstore />
+      <Testimonials />
     </div>
   )
 }
