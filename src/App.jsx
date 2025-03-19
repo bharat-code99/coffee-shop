@@ -7,6 +7,7 @@ import Services from "./components/Services"
 import Banner from "./components/Banner"
 import Appstore from "./components/Appstore"
 import Testimonials from "./components/Testimonials"
+import Footer from "./components/Footer"
 
 export default function App(){
 
@@ -27,6 +28,7 @@ export default function App(){
       <Banner />
       <Appstore />
       <Testimonials />
+      <Footer />
     </div>
   )
 }
