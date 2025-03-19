@@ -73,12 +73,12 @@ const Testimonials = () => {
     <div className='py-14'>
       <div className='px-20'>
         {/* Title */}
-        <div className='text-center mb-10'>
+        <div data-aos="fade-up" className='text-center mb-10'>
           <h1 className='text-4xl sm:text-5xl font-pacifico text-gray-800'>Testimonials</h1>
         </div>
 
         {/* Testimonials Cards */}
-        <div>
+        <div data-aos="zoom-in">
           <Slider {...settings}>
             {TestimonialsData.map((data) => {
               return(

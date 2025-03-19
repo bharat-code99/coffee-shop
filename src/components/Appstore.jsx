@@ -18,7 +18,7 @@ const Appstore = () => {
     <div style={backgroundImg} className='py-10'>
       <div className='px-20'>
         <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-4'>
-          <div className='space-y-6 max-w-xl mx-auto'>
+          <div data-aos="fade-up" className='space-y-6 max-w-xl mx-auto'>
             <h1 className='text-2xl text-center sm:text-left sm:text-4xl font-semibold text-white/80'>Coffee Cafe is available for Android and IOS</h1>
             <div className='flex flex-wrap justify-center sm:justify-start items-center'>
               <a href="#">

@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className=''>
         <div className="flex justify-between items-center">
           {/* Logo Section */}
-          <div>
+          <div data-aos="fade-down" data-aos-once="true">
             <a href="#" className='font-bold text-2xl sm:text-3xl flex items-center gap-2 font-pacifico tracking-wider'>
               <img src={Logo} alt="Logo" className='w-14'/>
               Coffee Cafe
@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
 
           {/* Links Section */}
-          <div className='flex gap-4 items-center'>
+          <div data-aos="fade-down" data-aos-once="true" data-aos-delay="300" className='flex gap-4 items-center'>
             <ul className='hidden sm:flex gap-3 text-xl font-semibold'>
               {menus.map((menu) => (
                 <li key={menu.id}>
