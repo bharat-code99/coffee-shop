@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2'>
           {/* Text Section */}
           <div className='flex flex-col items-start justify-center gap-6 order-2 sm:order-1'>
-            <h1 data-aos="fade-up" data-aos-once="true" className='text-5xl sm:text-6xl font-bold'>We serve the richest Hello <span data-aos="zoom-out" data-aos-delay="300" className='text-primary font-pacifico'>Coffee</span> in the city</h1>
+            <h1 data-aos="fade-up" data-aos-once="true" className='text-5xl sm:text-6xl font-bold'>We serve the richest <span data-aos="zoom-out" data-aos-delay="300" className='text-primary font-pacifico'>Coffee</span> in the city</h1>
             <button data-aos="fade-up" data-aos-delay="400" className='bg-gradient-to-r from-primary to-secondary rounded-xl px-4 py-2 font-bold cursor-pointer hover:scale-105 duration-200'>Coffee And Code</button>
           </div>
 
